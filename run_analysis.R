@@ -2,7 +2,7 @@
 # First we will establish directories and download/extract the data files
 
 # set up directory names
-maindir <- "/home/sean/Documentos/Coursera_DataSc"
+maindir <- getwd()
 projectdir <- "Getting_and_Cleaning"
 # create the project directory and output directory if don't exist
 if (!(dir.exists(file.path(maindir, projectdir)))){
